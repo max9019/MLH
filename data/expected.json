@@ -2,5 +2,13 @@
   "labelName": "1. What is your Hero's name?",
   "labelGender": "2. Please choose a gender.",
   "labelAge": "3. How old is your hero?",
-  "labelStory": "4. What type of story would you like to read?"
+  "labelStory": "4. What type of story would you like to read?",
+  "namePlaceholder": "Hero's name",
+  "genderPlaceholder1": "he",
+  "genderPlaceholder2": "she",
+  "genderPlaceholder3": "it",
+  "agePlaceholder": "Hero's age",
+  "storyPlaceholder": "Type of the story",
+  "buttonPlaceholder": "Create!"
+
 }
