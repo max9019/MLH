@@ -1,5 +1,5 @@
 {
-  "label": ".ant-form-item-required",
+  "label": ".ant-form-item-label",
   "name": "#name",
   "gender": ".ant-radio",
   "age": "#age",

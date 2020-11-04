@@ -7,7 +7,7 @@ describe('Checking the main functionality', function () {
 
     describe('Happy path', function () {
 
-        it('TC-024 Create button is clickable after 1-4 are filled in', function () {
+        it('TC-026 Create button is clickable after 1-4 are filled in', function () {
             browser.url('');
             const inputName = $(sel.name).setValue(data.name);
             const inputAge = $(sel.age).setValue(data.age);
@@ -18,7 +18,7 @@ describe('Checking the main functionality', function () {
             expect(submit).toEqual(true);
         });
 
-        it('TC-025 Create button is clickable after 1-4 are filled in with function', function () {
+        it('TC-027 Create button is clickable after 1-4 are filled in with function', function () {
             browser.url('');
             inputValues4(data.name, data.gender.she, data.age, data.storyType);
             const submit = $(sel.button).isEnabled();
@@ -29,7 +29,7 @@ describe('Checking the main functionality', function () {
 
     describe('Other Paths', function () {
 
-        it('TC-026 gender he is working', function () {
+        it('TC-028 gender he is working', function () {
             browser.url('');
             inputValues4andClick(data.name, data.gender.he, data.age, data.storyType);
             const tryAgainBtn = $(sel.tryAgain).isDisplayed();
