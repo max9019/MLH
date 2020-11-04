@@ -7,5 +7,6 @@
   "button": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
   "storyType": ".ant-select-item-option",
-  "genderPlaceholder": ".ant-radio-wrapper"
+  "genderPlaceholder": ".ant-radio-wrapper",
+  "tryAgain": ".btn-primary"
 }

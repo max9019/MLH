@@ -62,4 +62,4 @@ describe('My Little Hero', function () {
 
     });
 
-});
+})
