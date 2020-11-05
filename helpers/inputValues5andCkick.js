@@ -1,14 +1,15 @@
-const sel = require('../data/selectors.json')
+const sel = require('../data/selectors.json');
+const uploadSmallJPGpicture = require('../helpers/uploadSmallJPGpicture');
 
-function inputValues4andClick (name, gender, age, storyType){
+function inputValues5andClick (name, gender, age, storyType){
     $(sel.name).setValue(name);
     $$(sel.gender)[gender].click();
     $(sel.age).setValue(age);
     $(sel.story).click();
     $$(sel.storyType)[storyType].click();
-
-
+    uploadSmallJPGpicture();
     $(sel.button).click();
+
 }
 
-module.exports = inputValues4andClick;
+module.exports = inputValues5andClick;
