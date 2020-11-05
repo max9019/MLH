@@ -36,10 +36,16 @@ describe('Placeholders', function () {
             expect(text).toEqual(exp.storyPlaceholder);
         });
 
-        it('TC-018 Button - Create!', function () {
+        it('TC-018 Picture - Click or drag and drop', function () {
+            const text = $(sel.picture).getText();
+            expect(text).toEqual(exp.picturePlaceholder);
+        });
+
+        it('TC-019 Button - Create!', function () {
             const text = $(sel.button).getText();
             expect(text).toEqual(exp.buttonPlaceholder);
         });
+
 
     });
 
