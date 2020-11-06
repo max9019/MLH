@@ -9,5 +9,6 @@
   "storyClick": ".ant-select-show-arrow",
   "storyType": ".ant-select-item-option",
   "genderPlaceholder": ".ant-radio-wrapper",
-  "tryAgain": ".btn-primary"
+  "tryAgain": ".btn-primary",
+  "uploadedPicture": ".mb-2"
 }

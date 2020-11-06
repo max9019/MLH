@@ -3,6 +3,8 @@ const data = require ('../../data/testData.json');
 const inputValues4 = require('../../helpers/inputValues4');
 const inputValues4andClick = require('../../helpers/inputValues4andClick');
 const inputValues5andClick = require('../../helpers/inputValues5andCkick');
+
+
 describe('Checking the main functionality', function () {
 
     describe('Happy path', function () {
@@ -50,14 +52,13 @@ describe('Checking the main functionality', function () {
             expect(tryAgainBtn).toEqual(true);
         });
 
-        it('TC-032 Main functionality with picture', function () {
+        it('TC-032 Main functionality with picture is working', function () {
             browser.url('');
             inputValues5andClick(data.name, data.gender.he, data.age, data.storyType.Comedy);
-            browser.pause(5000);
             const tryAgainBtn = $(sel.tryAgain).isDisplayed();
             expect(tryAgainBtn).toEqual(true);
         });
 
     });
 
-});
+})
