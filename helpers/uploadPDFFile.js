@@ -1,8 +1,8 @@
 const path = require('path');
 
-function uploadSmallJPGpicture() {
+function uploadPDFFile() {
     const inputDiv = $('.ant-upload input');
-    const filePath = path.join(__dirname, '../data/Test_JPG_152_KB.jpg');
+    const filePath = path.join(__dirname, '../data/TestPDF.pdf');
     const remoteFilePath = browser.uploadFile(filePath);
     browser.execute(function () {
         document.getElementsByTagName('input')[6].style.display = "block";
@@ -11,4 +11,4 @@ function uploadSmallJPGpicture() {
     inputDiv.setValue(remoteFilePath);
 }
 
-module.exports = uploadSmallJPGpicture;
+module.exports = uploadPDFFile;

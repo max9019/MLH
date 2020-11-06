@@ -10,5 +10,7 @@
   "storyType": ".ant-select-item-option",
   "genderPlaceholder": ".ant-radio-wrapper",
   "tryAgain": ".btn-primary",
-  "uploadedPicture": ".mb-2"
+  "uploadedPicture": ".mb-2",
+  "imagePreview": ".ant-upload-list-item-name",
+  "imagePreviewDelete": ".anticon-delete"
 }

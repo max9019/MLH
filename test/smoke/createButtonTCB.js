@@ -1,10 +1,9 @@
 const sel = require('../../data/selectors.json');
 const exp = require('../../data/expected.json');
 const data = require('../../data/testData.json');
-const inputValues4 = require('../../helpers/inputValues4');
 const inputValues4andClick = require('../../helpers/inputValues4andClick');
 const inputValues5andClick = require('../../helpers/inputValues5andCkick');
-const uploadSmallJPGpicture = require('../../helpers/uploadSmallJPGpicture');
+const uploadSmallJPGimage = require('../../helpers/uploadSmallJPGimage');
 
 describe('Checking Create Button', function () {
 
@@ -49,7 +48,7 @@ describe('Checking Create Button', function () {
 
     it('TCB-007 Disabled when only image uploaded', function () {
         browser.url('');
-        uploadSmallJPGpicture();
+        uploadSmallJPGimage();
         const button = $(sel.button).isEnabled();
         expect(button).toEqual(false);
     });
@@ -66,7 +65,7 @@ describe('Checking Create Button', function () {
         browser.url('');
         $(sel.name).setValue(data.name);
         $(sel.age).setValue(data.age);
-        uploadSmallJPGpicture();
+        uploadSmallJPGimage();
         const button = $(sel.button).isEnabled();
         expect(button).toEqual(false);
     });
@@ -76,7 +75,7 @@ describe('Checking Create Button', function () {
         $(sel.name).setValue(data.name);
         $(sel.age).setValue(data.age);
         $$(sel.gender)[data.gender.he].click();
-        uploadSmallJPGpicture();
+        uploadSmallJPGimage();
         const button = $(sel.button).isEnabled();
         expect(button).toEqual(false);
     });

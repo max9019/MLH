@@ -1,5 +1,5 @@
 const sel = require('../data/selectors.json');
-const uploadSmallJPGpicture = require('../helpers/uploadSmallJPGpicture');
+const uploadSmallJPGimage = require('./uploadSmallJPGimage');
 
 function inputValues5andClick (name, gender, age, storyType){
     $(sel.name).setValue(name);
@@ -7,7 +7,7 @@ function inputValues5andClick (name, gender, age, storyType){
     $(sel.age).setValue(age);
     $(sel.story).click();
     $$(sel.storyType)[storyType].click();
-    uploadSmallJPGpicture();
+    uploadSmallJPGimage();
     $(sel.button).click();
 
 }

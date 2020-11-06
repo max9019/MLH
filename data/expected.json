@@ -11,6 +11,9 @@
   "agePlaceholder": "Hero's age",
   "storyPlaceholder": "Type of the story",
   "picturePlaceholder": "Click or drag and drop",
-  "buttonPlaceholder": "Create!"
+  "buttonPlaceholder": "Create!",
+  "jpgPreview": "Test_JPG_152_KB.jpg",
+  "pngPreview": "Test_PNG_94_KB.png",
+  "imageError": "/static/error.86e8f937.png"
 
 }
