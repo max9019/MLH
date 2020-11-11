@@ -2,7 +2,7 @@ const sel = require('../../data/selectors.json');
 const exp = require('../../data/expected.json');
 const data = require('../../data/testData.json');
 const inputValues4andClick = require('../../helpers/inputValues4andClick');
-const inputValues5andClick = require('../../helpers/inputValues5andCkick');
+const inputValues5andClick = require('../../helpers/inputValues5andClick');
 const uploadSmallJPGimage = require('../../helpers/uploadSmallJPGimage');
 
 describe('Checking Create Button', function () {

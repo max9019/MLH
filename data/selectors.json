@@ -11,6 +11,7 @@
   "genderPlaceholder": ".ant-radio-wrapper",
   "tryAgain": ".btn-primary",
   "uploadedPicture": ".mb-2",
-  "imagePreview": ".ant-upload-list-item-name",
-  "imagePreviewDelete": ".anticon-delete"
+  "imagePreviewName": ".ant-upload-list-item-name",
+  "imagePreviewDelete": ".anticon-delete",
+  "imagePreview": ".ant-upload-list-item-info"
 }

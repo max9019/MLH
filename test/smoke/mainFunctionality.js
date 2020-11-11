@@ -2,7 +2,7 @@ const sel = require ('../../data/selectors.json');
 const data = require ('../../data/testData.json');
 const inputValues4 = require('../../helpers/inputValues4');
 const inputValues4andClick = require('../../helpers/inputValues4andClick');
-const inputValues5andClick = require('../../helpers/inputValues5andCkick');
+const inputValues5andClick = require('../../helpers/inputValues5andClick');
 
 
 describe('Checking the main functionality', function () {
